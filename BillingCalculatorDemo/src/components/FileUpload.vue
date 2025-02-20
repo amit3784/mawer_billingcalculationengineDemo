@@ -111,7 +111,7 @@ export default {
       let formData = new FormData();
       formData.append('file', event.target.files[0]);
       // POST request using fetch()
-      fetch("https://localhost:7065/api/FileUpload", {
+      fetch("https://localhost:32769/api/FileUpload", {
 
         // Adding method type
         method: "POST",
