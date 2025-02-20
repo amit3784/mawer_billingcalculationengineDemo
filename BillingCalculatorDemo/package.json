@@ -1,0 +1,26 @@
+{
+  "name": "billingcalculatordemo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "alasql": "^4.6.3",
+    "chart.js": "^4.4.7",
+    "chartjs": "^0.3.24",
+    "papaparse": "^5.5.2",
+    "requirejs": "^2.3.7",
+    "vue": "^3.5.13",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
+    "vite": "^6.1.0",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  }
+}
